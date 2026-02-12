@@ -1,0 +1,98 @@
+/* Classes for typefaces imported from Google Fonts */
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sn-pro {
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+/*****/
+
+/* Settings for the background image. Change the url to change the image. */
+body {
+  background-image: url('./assets/light-gray-abstract-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+h1 {
+    color: #088395;
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: black;
+    font-family: "SN Pro", sans-serif;
+    margin-top: 5px;
+}
+
+p {
+    max-width: 500px;
+    font-family: "SN Pro", sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#columns {
+    display: flex;
+    flex-direction: row; /* Set flex direction to row (vs. column) */
+    gap: 30px; /* Add 30px gap between columns */
+    justify-content: center; /* Make flex items float to the center of the row */
+    align-items: center; /* Make flex items float to the center of their column */
+    flex-wrap: wrap; /* Allow child elements to wrap to a new line */
+
+    margin: 100px auto; /* Calculate horizontal margin to keep contents centered (only works when width is set) */
+    padding: 50px;
+    max-width: 900px; /* Content will not take up more than 1000px */
+
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /* Add a light shadow behind the element */
+    border-radius: 40px;
+}
+
+#row {
+    display: flex;
+    flex-direction: row; /* Set flex direction to row (vs. column) */
+    gap: 20px; /* Add 20px gap between child elements */
+    justify-content: center; /* Make child elements float to the center of the row */
+    margin-top: 20px;
+}
+
+#portrait {
+    max-width: 300px; /* Picture will not be more than 300 pixels wide */
+    border-radius: 40px; /* Curve the corners */
+}
+
+.social {
+    max-width: 50px;
+    transition-duration: .5s; /* The hover animation will take .5 seconds */
+}
+
+.social:hover {
+    opacity: 0.5; /* On hover, make the icons halfway transparent */
+}
+
+.button {
+    padding: 15px;
+    border-radius: 10px; /* Curve the corners */
+    color: white;
+    background-color: #088395;
+    font-family: "SN Pro", sans-serif;
+    font-size: 18px;
+    text-decoration: none; /* Remove the link underline */
+    transition-duration: .5s; /* The hover animation will take .5 seconds */
+}
+
+.button:hover {
+    opacity: 0.5; /* On hover, make the button halfway transparent */
+}
