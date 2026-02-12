@@ -4,6 +4,6 @@ A simple website portfolio template and tutorial for computer scientists and sof
 ## Instructions
 1. To edit this template, fork this repo! (Click the fork button in the top right corner.)
 2. Clone the repo.
-   a. Make sure you have Git downloaded
-   b. Click the code button in the top right corner and copy the URL.
-   c. In your command line, `git clone <url>`
+   *Make sure you have Git downloaded
+   *Click the code button in the top right corner and copy the URL.
+   *In your command line, `git clone <url>`
